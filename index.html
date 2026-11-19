@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>lab8</title>
+    <script src="script.js" defer></script>
+    <link rel="icon" type="image/png" href="./pic/favicon.png" sizes="32x32">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body onload="init()">
+<button type="button" id="themeBtn" onclick="toggleTheme()">🌙 / ☀️</button>
+    <div class="app">
+        <div class="user">
+            <p id="user">User</p>
+            <div class="score" id="userScore"></div>
+            <div class="number" id="userNumber"></div>
+        </div>
+        <div class="btn">
+            <button type="button" id="btn" onclick="generate()">DEP</button>
+            <button type="button" id="btn2" onclick="reset()">RESET</button>
+        </div>
+        <div class="machine">
+            <p>Machine</p>
+            <div class="score" id="machineScore"></div>
+            <div class="number" id="machineNumber"></div>
+        </div>
+    </div>
+</body>
+</html>
